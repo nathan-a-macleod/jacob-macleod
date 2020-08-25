@@ -3,6 +3,10 @@
 sudo apt-get update
 sudo apt-get install git
 sudo apt-get install vim
+mkdir .vim
+mkdir .vim/colors
+wget https://raw.githubusercontent.com/jacob-macleod/jacob-macleod/master/dot-files/vimrc
+mv vimrc .vimrc
 sudo apt-get install vim-gtk3 --fix-missing
 sudo apt-get install gnome-system-monitor
 wget https://go.microsoft.com/fwlink/?LinkID=760868
