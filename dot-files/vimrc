@@ -5,7 +5,7 @@ set mouse=a
 set mouse=n
 set background=dark
 set number
-colorscheme edge
+"colorscheme edge
 map <F10> :Sexplore <CR>
 map <C-b> :terminal<CR>
 
