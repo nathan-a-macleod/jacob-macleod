@@ -16,3 +16,4 @@ sudo apt-get install libxkbfile1
 sudo dpkg --install vscode.deb
 sudo apt-get install zsh
 sudo chsh -s /bin/zsh jacob
+sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
