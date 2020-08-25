@@ -7,6 +7,7 @@ mkdir .vim
 mkdir .vim/colors
 wget https://raw.githubusercontent.com/jacob-macleod/jacob-macleod/master/dot-files/vimrc
 mv vimrc .vimrc
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 sudo apt-get install vim-gtk3 --fix-missing
 sudo apt-get install gnome-system-monitor
 wget https://go.microsoft.com/fwlink/?LinkID=760868
