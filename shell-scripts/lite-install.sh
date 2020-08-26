@@ -18,8 +18,8 @@ sudo apt-get install zsh
 sudo chsh -s /bin/zsh jacob
 sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-wget -o zshrc https://raw.githubusercontent.com/jacob-macleod/jacob-macleod/master/dot-files/.zshrc
-mv zshrc .zshrc
+wget https://raw.githubusercontent.com/jacob-macleod/jacob-macleod/master/dot-files/.zshrc
+mv .zshrc.1 .zshrc
 
 
 echo "Finally, enter   git config --global user.email 'your email'"
