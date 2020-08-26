@@ -30,6 +30,7 @@ mv .zshrc.1 .zshrc
 
 #JVM install
 sudo apt-get install openjdk-11-jdk
+
 #Eclipse install
 wget http://ftp.fau.de/eclipse/technology/epp/downloads/release/2020-06/R/eclipse-java-2020-06-R-linux-gtk-x86_64.tar.gz
 tar -xzf eclipse-java-2020-06-R-linux-gtk-x86_64.tar.gz
