@@ -29,9 +29,7 @@ wget https://raw.githubusercontent.com/jacob-macleod/jacob-macleod/master/dot-fi
 mv .zshrc.1 .zshrc
 
 #JVM install
-wget https://download.java.net/openjdk/jdk14/ri/openjdk-14+36_linux-x64_bin.tar.gz
-tar -xzf openjdk-14.0.2_linux-x64_bin.tar.gz
-
+sudo apt-get install openjdk-11-jdk
 #Eclipse install
 wget http://ftp.fau.de/eclipse/technology/epp/downloads/release/2020-06/R/eclipse-java-2020-06-R-linux-gtk-x86_64.tar.gz
 tar -xzf eclipse-java-2020-06-R-linux-gtk-x86_64.tar.gz
