@@ -36,6 +36,10 @@ wget http://ftp.fau.de/eclipse/technology/epp/downloads/release/2020-06/R/eclips
 tar -xzf eclipse-java-2020-06-R-linux-gtk-x86_64.tar.gz
 ./eclipse/eclipse
 
+#Chrome install
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo dpkg --install google-chrome-stable_current_amd64.deb
+
 #I3 and Xephyr install
 sudo apt-get install xserver-xephyr
 sudo apt-get install i3
