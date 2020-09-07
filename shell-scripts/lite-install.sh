@@ -36,5 +36,10 @@ wget http://ftp.fau.de/eclipse/technology/epp/downloads/release/2020-06/R/eclips
 tar -xzf eclipse-java-2020-06-R-linux-gtk-x86_64.tar.gz
 ./eclipse/eclipse
 
+#I3 and Xephyr install
+sudo apt-get install xserver-xephyr
+sudo apt-get install i3
+wget https://raw.githubusercontent.com/jacob-macleod/jacob-macleod/master/shell-scripts/wm.sh
+
 echo "Finally, enter   git config --global user.email 'your email'"
 echo "and git config --global user.name 'Your Name'"
