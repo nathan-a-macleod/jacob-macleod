@@ -81,6 +81,10 @@ feh --bg-scale 3fa040b186dbfc221b96b62c7083c03b.jpg
 wget https://github.com/jacob-macleod/jacob-macleod/raw/master/shell-scripts/install-termite.sh
 bash install-termite.sh
 
+#Install up-clock:
+wget http://ppa.launchpad.net/apandada1/up-clock/ubuntu/pool/main/u/up-clock/up-clock_6.2-0\~10\~ubuntu20.04.1_all.deb 
+sudo dpkg --install up-clock_6.2-0~10~ubuntu20.04.1_all.deb
+
 #Download i3 config
 wget https://github.com/jacob-macleod/jacob-macleod/raw/master/dot-files/config
 mv config $HOME/.config/i3/config
