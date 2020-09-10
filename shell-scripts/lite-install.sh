@@ -81,6 +81,14 @@ feh --bg-scale 3fa040b186dbfc221b96b62c7083c03b.jpg
 wget https://github.com/jacob-macleod/jacob-macleod/raw/master/shell-scripts/install-termite.sh
 bash install-termite.sh
 
+#Install font awesome:
+wget https://github.com/FortAwesome/Font-Awesome/archive/5.14.0.zip
+unzip 5.14.0.zip
+mkdir $HOME/.fonts
+mv Font-Awesome-5.14.0/webfonts/fa-regular-400.ttf $HOME/.fonts
+mv Font-Awesome-5.14.0/webfonts/fa-brands-400.ttf $HOME/.fonts
+mv Font-Awesome-5.14.0/webfonts/fa-solid-900.ttf $HOME/.fonts
+
 #Install up-clock:
 wget http://ppa.launchpad.net/apandada1/up-clock/ubuntu/pool/main/u/up-clock/up-clock_6.2-0\~10\~ubuntu20.04.1_all.deb 
 sudo dpkg --install up-clock_6.2-0~10~ubuntu20.04.1_all.deb
