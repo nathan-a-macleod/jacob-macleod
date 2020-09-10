@@ -7,6 +7,8 @@ sudo apt-get install git
 sudo apt-get install vim
 mkdir .vim
 mkdir .vim/colors
+wget https://github.com/arcticicestudio/nord-vim/raw/develop/colors/nord.vim
+mv nord.vim .vim/colors
 wget https://raw.githubusercontent.com/jacob-macleod/jacob-macleod/master/dot-files/vimrc
 mv vimrc .vimrc
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
