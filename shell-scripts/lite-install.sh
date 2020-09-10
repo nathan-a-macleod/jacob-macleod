@@ -85,7 +85,11 @@ bash install-termite.sh
 wget https://github.com/jacob-macleod/jacob-macleod/raw/master/dot-files/config
 mv config $HOME/.config/i3/config
 
-#}
+#Ulauncher install 
+wget https://github.com/Ulauncher/Ulauncher/releases/download/5.8.0/ulauncher_5.8.0_all.deb
+sudo dpkg --install ulauncher_5.8.0_all.deb 
+sudo apt --fix-broken install
+# End of i3 config} 
 
 echo "You will need to manually change window features using lxappearance - suggested changes: Change font to SFNS Display. Change the theme in LXappearance to Arc darker. THange the icon theme to moka."
 echo "You will need to manually install arc darker firefox theme"
