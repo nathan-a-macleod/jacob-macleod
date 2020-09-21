@@ -16,6 +16,17 @@ sudo apt-get install vim-gtk3 --fix-missing
 
 sudo apt-get install gnome-system-monitor
 
+#Doom Emacs install
+sudo apt-get install emacs
+git clone https://github.com/hlissner/doom-emacs ~/.emacs.d
+~/.emacs.d/bin/doom install
+wget https://raw.githubusercontent.com/jacob-macleod/jacob-macleod/master/dot-files/init.el
+mv init.el .doom.d/init.el
+wget https://raw.githubusercontent.com/jacob-macleod/jacob-macleod/master/dot-files/packages.el
+mv packages.el .doom.d/packages.el
+wget https://raw.githubusercontent.com/jacob-macleod/jacob-macleod/master/dot-files/config.el
+mv config.el .doom.d/config.el
+
 #VSCode install
 wget https://go.microsoft.com/fwlink/?LinkID=760868
 mv index.html?LinkID=760868 vscode.deb
