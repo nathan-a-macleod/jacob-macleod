@@ -14,6 +14,12 @@ mv vimrc .vimrc
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 sudo apt-get install vim-gtk3 --fix-missing
 
+#NeoVim install
+wget https://github.com/jacob-macleod/jacob-macleod/raw/master/dot-files/init.vim
+mkdir .config
+mkdir .config/nvim
+mv init.vim .config/nvim
+
 sudo apt-get install gnome-system-monitor
 
 #Doom Emacs install
