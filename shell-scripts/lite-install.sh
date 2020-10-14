@@ -17,8 +17,6 @@ sudo apt-get install vim-gtk3 --fix-missing
 #NeoVim install
 sudo apt-get install neovim
 wget https://github.com/jacob-macleod/jacob-macleod/raw/master/dot-files/init.vim
-mkdir .config
-mkdir .config/nvim
 mv init.vim .config/nvim
 
 sudo apt-get install gnome-system-monitor
