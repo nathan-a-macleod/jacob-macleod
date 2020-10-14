@@ -15,6 +15,7 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 sudo apt-get install vim-gtk3 --fix-missing
 
 #NeoVim install
+sudo apt-get install neovim
 wget https://github.com/jacob-macleod/jacob-macleod/raw/master/dot-files/init.vim
 mkdir .config
 mkdir .config/nvim
