@@ -45,6 +45,7 @@ sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 wget https://raw.githubusercontent.com/jacob-macleod/jacob-macleod/master/dot-files/.zshrc
 mv .zshrc.1 .zshrc
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 
 #JVM install
 sudo apt-get install openjdk-11-jdk
