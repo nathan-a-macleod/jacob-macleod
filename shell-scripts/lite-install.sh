@@ -14,6 +14,12 @@ mv vimrc .vimrc
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 sudo apt-get install vim-gtk3 --fix-missing
 
+#Z.lua install
+sudo apt install lua5.2
+wget https://github.com/skywind3000/z.lua/archive/1.8.7.tar.gz
+sudo tar -xf 1.8.7.tar.gz
+
+
 #NeoVim install
 sudo apt-get install neovim
 wget https://github.com/jacob-macleod/jacob-macleod/raw/master/dot-files/init.vim
