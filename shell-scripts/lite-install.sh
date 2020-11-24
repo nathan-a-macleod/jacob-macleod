@@ -83,7 +83,7 @@ sudo apt --fix-broken-install
 
 sudo apt-get install lxappearance
 sudo apt-get install thunar
-sudo apt-get install rofi
+sudo apt-get install dmenu
 
 #Install arc GTK theme
 sudo apt-get install arc-theme
