@@ -19,6 +19,9 @@ sudo apt install lua5.2
 wget https://github.com/skywind3000/z.lua/archive/1.8.7.tar.gz
 sudo tar -xf 1.8.7.tar.gz
 
+#Python3 install
+sudo apt-get install python3
+sudo apt-get install python3-pip
 
 #NeoVim install
 sudo apt-get install neovim
