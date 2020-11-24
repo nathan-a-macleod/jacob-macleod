@@ -117,6 +117,7 @@ mv Font-Awesome-5.14.0/webfonts/fa-solid-900.ttf $HOME/.fonts
 #Install up-clock:
 wget http://ppa.launchpad.net/apandada1/up-clock/ubuntu/pool/main/u/up-clock/up-clock_6.2-0\~10\~ubuntu20.04.1_all.deb 
 sudo dpkg --install up-clock_6.2-0~10~ubuntu20.04.1_all.deb
+sudo apt --fix-broken install
 
 #Download i3 config
 wget https://github.com/jacob-macleod/jacob-macleod/raw/master/dot-files/config
