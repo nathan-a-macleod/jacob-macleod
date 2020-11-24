@@ -130,6 +130,6 @@ mv config $HOME/.config/i3/config
 echo "You will need to manually change window features using lxappearance - suggested changes: Change font to SFNS Display. Change the theme in LXappearance to Arc darker. THange the icon theme to moka."
 echo "You will need to manually install arc darker firefox theme"
 echo "You will need to manually install the vscode edge theme"
-echo "You will need to manually install the eclipse code darker plugin"
+echo "You will need to manually install the eclipse darkest dark plugin"
 echo "Finally, enter   git config --global user.email 'your email'"
 echo "and git config --global user.name 'Your Name'"
