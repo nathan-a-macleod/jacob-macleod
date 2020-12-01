@@ -124,6 +124,8 @@ sudo apt --fix-broken install
 
 #Download i3 config
 wget https://github.com/jacob-macleod/jacob-macleod/raw/master/dot-files/config
+mkdir $HOME/.config
+mkdir $HOME/.config/i3
 mv config $HOME/.config/i3/config
 # End of i3 config} 
 
