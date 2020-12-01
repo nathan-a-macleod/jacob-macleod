@@ -68,6 +68,8 @@ tar -xzf eclipse-java-2020-06-R-linux-gtk-x86_64.tar.gz
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg --install google-chrome-stable_current_amd64.deb
 
+sudo apt-get install firefox-esr
+
 #I3 and Xephyr install
 sudo apt-get install xserver-xephyr
 sudo apt-get install i3
