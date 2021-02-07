@@ -1,8 +1,6 @@
 ### Hi there 👋
 
 I'm Jacob Macleod!
-
-<br>
 ![Top Programming Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=jacob-macleod&theme=buefy&layout=compact)
 
 - ⌨️ I mainly program in Python and Java, and C/C++ when programming the Arduino
