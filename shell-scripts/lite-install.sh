@@ -29,6 +29,7 @@ wget https://github.com/jacob-macleod/jacob-macleod/raw/master/dot-files/init.vi
 mv init.vim .config/nvim
 
 sudo apt-get install gnome-system-monitor
+sudo apt-get install docker.io
 
 #Doom Emacs install
 sudo apt-get install emacs
