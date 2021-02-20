@@ -11,7 +11,7 @@ wget https://github.com/arcticicestudio/nord-vim/raw/develop/colors/nord.vim
 mv nord.vim .vim/colors
 wget https://raw.githubusercontent.com/jacob-macleod/jacob-macleod/master/dot-files/vimrc
 mv vimrc .vimrc
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+sudo git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 sudo apt-get install vim-gtk3 --fix-missing
 
 #Z.lua install
