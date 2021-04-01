@@ -47,14 +47,8 @@ sudo apt-get install snapd
 sudo snap install core
 sudo snap install snap-store
 
-#JVM install
-sudo apt-get install openjdk-11-jdk
+#Blender
+sudo apt-get install blender -y
 
-#Eclipse install
-wget http://ftp.fau.de/eclipse/technology/epp/downloads/release/2020-06/R/eclipse-java-2020-06-R-linux-gtk-x86_64.tar.gz
-tar -xzf eclipse-java-2020-06-R-linux-gtk-x86_64.tar.gz
-
-
-
-#Make sure these are at the bottom so that these are seen!
-echo "Please make sure to add a bash script to launch eclipse containing sommelier -X --scale=0.85 eclipse/eclipse"
+#Gimp
+sudo apt-get install gimp -y
