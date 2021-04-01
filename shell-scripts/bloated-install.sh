@@ -58,3 +58,9 @@ tar -xzf eclipse-java-2020-06-R-linux-gtk-x86_64.tar.gz
 
 #Make sure these are at the bottom so that these are seen!
 echo "Please make sure to add a bash script to launch eclipse containing sommelier -X --scale=0.85 eclipse/eclipse"
+
+#Blender
+sudo apt-get install blender -y
+
+#Gimp
+suod apt-get install gimp -y
