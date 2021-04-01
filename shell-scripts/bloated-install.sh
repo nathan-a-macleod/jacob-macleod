@@ -58,3 +58,5 @@ tar -xzf eclipse-java-2020-06-R-linux-gtk-x86_64.tar.gz
 
 #Make sure these are at the bottom so that these are seen!
 echo "Please make sure to add a bash script to launch eclipse containing sommelier -X --scale=0.85 eclipse/eclipse"
+echo "Make sure to also change the eclipse style to code darker or something by devstyle"
+echo "Please make sure to also change the Visual Studio Code theme to either edge or one dark and install the Python, Docker and Markdown extensions"
